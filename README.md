@@ -1,2 +1,2 @@
-# NEUQworks
+# NEUQ_works
 东北大学秦皇岛分校C++语言程序设计（双语）理论项目
