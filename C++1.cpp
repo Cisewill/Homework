@@ -21,7 +21,7 @@ int main(){
     area=Pi*radius*radius;
     
     cout<<"radius:"<<radius<<endl;
-    cout<<"circumference"<<circumference<<endl;
+    cout<<"circumference:"<<circumference<<endl;
     cout<<"area:"<<area<<endl;
     
     return 0;
