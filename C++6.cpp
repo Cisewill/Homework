@@ -10,7 +10,7 @@ int main(){
 	cout << "Original letter is " << original
 	<< ", and its ASCII code is " << (int)original << endl ;
 	
-	char converted = 'g' ;
+	char converted = original + ASCII_Difference ;
 	cout << "Converted letter is " << converted
 	<< ", and its ASCII code is " << (int)converted << endl ;
 	
