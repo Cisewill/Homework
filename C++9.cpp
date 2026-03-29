@@ -8,11 +8,18 @@ int main(){
 	int pass = 0;
 	int fail = 0;
 	
-	cout << "Enter the number of students: ";
-	cin >> n ;
-	
-	for(int i = 1; i <= 5; i++){
-		cout << "Enter the grade of student " << i << "(0-100)£º";
+	do{
+		cout << "Enter the number of students: ";
+	    cin >> n ;
+
+	    if(n<=0){
+	       cout << "Invalid number.Please enter a positive integer." << endl;
+		   cout << "Enter again." << endl;
+	    }
+	}while(n <= 0)
+		
+	for(int i = 1; i <= n; i++){
+		cout << "Enter the grade of student " << i << "(0-100)Â£Âº";
 		cin >> grade;
 		
 		if (grade < 0 || grade > 100){
